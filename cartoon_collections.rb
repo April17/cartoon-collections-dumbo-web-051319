@@ -7,7 +7,8 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  ary << array.map {|call| puts call.capitalize + "!"}
+  ary = []
+  array.map {|call| ary << call.capitalize + "!"}
   return ary
 end
 
